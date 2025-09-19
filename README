@@ -22,4 +22,4 @@ is fully compatible with NumPy 2.x.
 
 ```bash
 pip install numpy==2.2.6 \
-  https://github.com/<your-username>/<your-repo>/releases/download/v0.2.33-patched/langchain_aws-0.2.33-py3-none-any.whl
+  https://github.com/dsapandora/langchain_aws-0.2.33-patched/releases/download/v0.2.33-patched/langchain_aws-0.2.33-py3-none-any.whl
