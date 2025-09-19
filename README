@@ -1,0 +1,25 @@
+# langchain-aws Patched Wheel
+
+This repository provides a **patched build of `langchain-aws==0.2.33`** with relaxed
+NumPy constraints, so it works with **NumPy 2.x** (e.g., `numpy==2.2.6`).
+
+The official release of `langchain-aws` restricts NumPy to `<2`, but since
+`langchain-aws` is pure Python and does not rely on NumPy internals, the package
+is fully compatible with NumPy 2.x.
+
+---
+
+## 📦 What's included
+- `langchain_aws-0.2.33-py3-none-any.whl`  
+  (pure Python wheel, works on Linux, macOS, Windows)
+
+---
+
+## 🚀 Installation
+
+1. Make sure you have **Python 3.9+** and `pip` available.
+2. Install NumPy 2.2.6 and the patched wheel:
+
+```bash
+pip install numpy==2.2.6 \
+  https://github.com/<your-username>/<your-repo>/releases/download/v0.2.33-patched/langchain_aws-0.2.33-py3-none-any.whl
